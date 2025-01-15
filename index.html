@@ -145,8 +145,6 @@
 					</div>
 				</section>
 
-
-
 				<!-- Contact -->
 				<section id="contact" class="four">
 					<div class="container">
@@ -155,17 +153,32 @@
 							<h2>Contact</h2>
 						</header>
 
-						<form method="post" action="#">
+						<form action="https://formspree.io/f/meoodkoa" method="POST">
+							<!-- Name and Email Fields -->
+							<div class="row" style="margin-bottom: 20px;"> <!-- Added margin-bottom for spacing -->
+								<!-- Name Field (Left side) -->
+								<div class="col-6 col-12-mobile">
+									<input type="text" name="name" placeholder="Your Name" required />
+								</div>
+
+								<!-- Email Field (Right side) -->
+								<div class="col-6 col-12-mobile">
+									<input type="email" name="email" placeholder="Your Email" required />
+								</div>
+							</div>
+
+							<!-- Message Field (Full width) -->
+							<div class="row" style="margin-bottom: 20px;"> <!-- Added margin-bottom for spacing -->
+								<div class="col-12">
+									<textarea name="message" placeholder="Your Message" required></textarea>
+								</div>
+							</div>
+
+							<!-- Submit Button -->
 							<div class="row">
-								<div class="col-6 col-12-mobile"><input type="text" name="name" placeholder="Name" />
-								</div>
-								<div class="col-6 col-12-mobile"><input type="text" name="email" placeholder="Email" />
-								</div>
 								<div class="col-12">
-									<textarea name="message" placeholder="Message"></textarea>
-								</div>
-								<div class="col-12">
-									<input type="submit" value="Send Message" />
+									<!-- Updated button style to match 'Learn More' -->
+									<button type="submit" class="button">Submit</button>
 								</div>
 							</div>
 						</form>
@@ -173,17 +186,19 @@
 					</div>
 				</section>
 
-			</div>
 
 
-			<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+
+
+
+				<!-- Scripts -->
+				<script src="assets/js/jquery.min.js"></script>
+				<script src="assets/js/jquery.scrolly.min.js"></script>
+				<script src="assets/js/jquery.scrollex.min.js"></script>
+				<script src="assets/js/browser.min.js"></script>
+				<script src="assets/js/breakpoints.min.js"></script>
+				<script src="assets/js/util.js"></script>
+				<script src="assets/js/main.js"></script>
 
 </body>
 
