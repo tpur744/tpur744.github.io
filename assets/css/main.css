@@ -2825,3 +2825,15 @@ footer {
 	animation-delay: 0.5s;
 	/* Delay the footer animation for a staggered effect */
 }
+
+#top {
+	min-height: 100vh;
+	/* Ensures it takes up the full viewport height */
+	display: flex;
+	/* Centers the content */
+	flex-direction: column;
+	justify-content: center;
+	/* Centers vertically */
+	align-items: center;
+	/* Centers horizontally */
+}
